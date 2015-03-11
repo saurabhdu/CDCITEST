@@ -1,0 +1,17 @@
+{
+"Login":{
+	"Email":"cool"
+	"Password" : "Do try"		
+	},
+
+"Variation1":{
+	"PartNum":"7979797"
+	"Color" : "Blue"	
+	"Size" : "15"	
+	},
+	
+"Search1":{
+	"Keyword":"Electronics"	
+	},
+
+}
