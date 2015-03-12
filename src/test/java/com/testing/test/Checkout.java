@@ -30,8 +30,8 @@ public class Checkout {
 	@Before
 	public static void setUp() throws Exception {
 		
-		data=PropertiesFile.ReadFunc();
-		driver = new FirefoxDriver();
+		//data=PropertiesFile.ReadFunc();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.target.com");
 		
