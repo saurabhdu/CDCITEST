@@ -31,7 +31,7 @@ public class Checkout {
 	public static void setUp() throws Exception {
 		
 		//data=PropertiesFile.ReadFunc();
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.target.com");
 		
