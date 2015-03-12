@@ -72,7 +72,7 @@ public class Checkout {
 
 	 @When("^Add item to cart from PDP$")
 	 public void Add_item_to_cart_from_PDP() throws Throwable {
-	     user.Select(prodenvobj.selectSize,"Small");
+	     //user.Select(prodenvobj.selectSize,"Small");
 	     user.click(prodenvobj.AddToCart);
 	     Thread.sleep(4000L);
 	     
